@@ -23,4 +23,6 @@ public class Plant {
   private String description;
   @Column(name = "image_url")
   private String imageUrl;
+  @Column(name="date_added")
+  private String dateAdded;
 }
